@@ -17,7 +17,7 @@ namespace ServerlessOrderPOC
         public async Task<HttpResponseData> Run(
                     [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "order/{orderId}")]
     HttpRequestData req,
-                    string orderId)
+                    string orderId) 
         {
             var tableClient = new TableClient(
                 Environment.GetEnvironmentVariable("AzureWebJobsStorage"),
