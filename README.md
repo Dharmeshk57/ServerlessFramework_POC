@@ -172,16 +172,6 @@ This POC demonstrates:
 
 ------------------------------------------------------------------------
 
-## Possible Enhancements
-
--   Add **Service Bus**
--   Implement **retry policies**
--   Add **Application Insights logging**
--   Add **Order Status API**
--   Implement **Durable Functions workflow**
-
-------------------------------------------------------------------------
-
 ## Author
 
 Dharmesh
